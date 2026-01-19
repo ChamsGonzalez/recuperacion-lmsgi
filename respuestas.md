@@ -67,3 +67,9 @@ const edad = localStorage.getItem('edad')
 Basicamente aqui las constantes (que son valores unicos que no pueden cambiarse) **nombre** y **edad** guardan usando `localStorage` los valores que el usuario ha marcado desde un inicio. **nombre** sera um dato de tipo string y **edad** de tipo int.
  
 Asumiendo que nombre y edad existen, ¿que tipo de dato será cada uno?
+
+## Respuestas de la pàrte practica
+
+### Ejercicio 2
+
+Despues de crear mi archivo markdown en el ejercicio anterior, he usado en la terminal el siguiente comado: `pandoc ollama-guia.md -o ollama-guia.html --standalone` para crear un archivo HTML completo automáticamente.
