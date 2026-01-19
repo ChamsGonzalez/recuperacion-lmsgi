@@ -37,3 +37,30 @@ Para listar los modelos disponibles localmente, usa:
 ```bash
 ollama list
 ```
+
+Si quieres ejecutar un modelo y hacerle preguntas, usa:
+
+```bash
+ollama run <modelo>
+```
+
+## Acerca de los modelos
+
+Los modelos tienen diferentes capacidades y tamaños. Siguiendo el ejemplo anterior, en la [página de Ollama](https://ollama.com/library/qwen2.5) podemos encontrar diferentes versiones de *qwen2.5*
+
+- `qwen2.5:0.5b` - 0.5 billones de parámetros
+- `qwen2.5:1.5b` - 1.5 billones de parámetros
+- `qwen2.5:3b` - 3 billones de parámetros
+
+## Usos de ollama
+
+Puedes usar Ollama para diversas tareas:
+
+- Generación de texto
+- Resumen de documentos
+- Traducción de idiomas
+- Respuesta a preguntas
+- Integración con aplicaciones personalizadas
+
+El futuro es usar IA en local, no dependas de servicios en la nube, o acabarás siendo dependiente de ellos, estarás regalando tus datos, tu privacidad y tu
+libertad mientras les pagas por ello.
