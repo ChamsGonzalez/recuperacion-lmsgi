@@ -21,3 +21,19 @@ curl -fsSL https://ollama.com/install.sh | sh
 ```bash
 ollama version
 ```
+
+## Uso básico
+
+Puedes descargar modelos preentrenados con `ollama pull <modelo>` , por ejemplo:
+
+```bash
+ollama pull qwen2.5:0.5b
+```
+
+Descargará el modelo *qwen2.5* de 0.5 billones de parámetros.
+
+Para listar los modelos disponibles localmente, usa:
+
+```bash
+ollama list
+```
