@@ -72,4 +72,4 @@ Asumiendo que nombre y edad existen, ¿que tipo de dato será cada uno?
 
 ### Ejercicio 2
 
-Despues de crear mi archivo markdown en el ejercicio anterior, he usado en la terminal el siguiente comado: `pandoc ollama-guia.md -o ollama-guia.html --standalone` para crear un archivo HTML completo automáticamente.
+Despues de crear mi archivo markdown en el ejercicio anterior, he usado en la terminal el siguiente comado: `pandoc ollama-guia.md -o ollama-guia.html` para crear un archivo HTML automáticamente. Antes use el mismo comando pero añadiendole al final `--standalone` para generar un archivo mas completo, sin embargo se me generaron dos errores por lo que opte por una opcion mas sencilla.
