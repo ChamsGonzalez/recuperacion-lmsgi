@@ -43,9 +43,7 @@ En el `<body>` es donde colocamos todos los elementos visibles. En este caso est
 ### Ejercicio 2
 
 ```html
-<p>
-    <a href = "https://google.com">Haz click aqui para ir a Google</a>
-</p>
+<p><a href = "https://google.com">Haz click aqui para ir a Google</a></p>
 ```
 
 ### Ejercicio 3
