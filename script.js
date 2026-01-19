@@ -1,8 +1,5 @@
 let text = document.querySelector("#texto")
-
-ptext = document.createElement("p")
-
-ptext.textContent = "Este texto ha sido modificado por JavaScript"
+text.textContent = "Este texto ha sido modificado por JavaScript"
 
 let frases = ["Hola mundo", "Hello world", "Bonjour le monde", "Hallo Welt", "Ciao mondo", "Olá mundo"]
 
@@ -13,5 +10,7 @@ pbutton = document.createElement("p")
 ptexto = document.createElement("p")
 
 function clicar(){
-    return frases[parseInt(Math.random() * frases.length)]
+    let saludo = frases[parseInt(Math.random() * frases.length)]
+    console.log(saludo)
     }
+
