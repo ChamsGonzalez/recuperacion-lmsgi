@@ -9,3 +9,15 @@ Se maneja a través de la línea de comandos (CLI) pero puedes integrarlo con di
 
 Para instalar Ollama, sigue estos pasos:
 
+1. Abre la terminal en Linux.
+2. Instala `curl` si no lo tienes instalado.
+3. Ejecuta el siguiente comando, descargará un script y lo ejecturará:
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+4. Una vez instalado, puedes verificar la instalación ejecutando:
+
+```bash
+ollama version
+```
