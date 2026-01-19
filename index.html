@@ -10,7 +10,7 @@
     <br>
     <p>Este es un ejercicio de recuperación de LMSGI</p>
     <hr>
-    <p>Concretamente el <strong>ejercicio 3</strong> de la parte practica</p>
+    <p id="texto">Concretamente el <strong>ejercicio 3</strong> de la parte practica</p>
     <hr>
     <img src="https://dummyjson.com/image/150" alt="imagen dummyjson">
     <hr>
@@ -27,5 +27,12 @@
     <p>Boton: <button>Haz click aqui</button></p>
     <p>Texto: <input type="text" placeholder="Escribe aqui..."></p>
 
+    <script>
+        let text = document.querySelector("#texto")
+
+        ptext = document.createElement("p")
+
+        ptext.textContent = "Este texto ha sido modificado por JavaScript"
+    </script>
 </body>
 </html>
