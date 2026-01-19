@@ -6,15 +6,12 @@ let frases = ["Hola mundo", "Hello world", "Bonjour le monde", "Hallo Welt", "Ci
 let button = document.querySelector("#boton")
 let texto = document.querySelector("#mensaje")
 
-pbutton = document.createElement("p")
-ptexto = document.createElement("p")
-
-
 let saludo = frases[parseInt(Math.random() * frases.length)]
 
 function clicar(){
+    let saludo = frases[parseInt(Math.random() * frases.length)]
     console.log(saludo)
+    texto.textContent = saludo
     }
 
-saludo.textContent = saludo
 
