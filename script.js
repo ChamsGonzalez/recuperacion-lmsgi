@@ -9,6 +9,9 @@ let frases = ["Hola mundo", "Hello world", "Bonjour le monde", "Hallo Welt", "Ci
 let button = document.querySelector("#boton")
 let texto = document.querySelector("#mensaje")
 
-function clicar(button){
-    return texto(frases[parseFloat(Math.random)])
+pbutton = document.createElement("p")
+ptexto = document.createElement("p")
+
+function clicar(){
+    return frases[parseInt(Math.random() * frases.length)]
     }
